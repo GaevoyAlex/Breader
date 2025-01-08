@@ -1,0 +1,42 @@
+name: breader_app
+description: "Mobile book reader"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  
+  cupertino_icons: ^1.0.6
+  flutter_pdfview: ^1.2.5
+  provider: ^6.1.2
+  google_nav_bar: ^5.0.7
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - "assets/assets.pdf"
