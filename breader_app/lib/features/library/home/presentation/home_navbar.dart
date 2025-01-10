@@ -7,7 +7,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:provider/provider.dart';
 
 final List<Widget> _screens = [
-  Library_Screen(),
+  LibraryScreen(),
   History_Screen(),
   Settings_Screen()
 ];
