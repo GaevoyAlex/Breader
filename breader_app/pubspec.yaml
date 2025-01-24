@@ -27,6 +27,7 @@ dependencies:
   hive_flutter: ^1.1.0
   pdf: ^3.11.1
   pdfx: ^2.6.0
+  circular_menu: ^4.0.0
   
 
 
